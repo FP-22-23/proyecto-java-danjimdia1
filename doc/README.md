@@ -53,11 +53,11 @@ R3: No se puede añadir un genero a la lista que ya este en esta, ni eliminar uno
 
 Criterio de igualdad: Por id, nombre (name), y fecha de estreno en la plataforma (releaseDate).
 
-Criterio de igualdad:
+Criterio de orden: Por id, nombre y pot último fecha de estreno. 
 
 Otras operaciones:
 
-public String getShortFormat(): Devuelve una cadena representativa del show cone el formato: 
+public String getShortFormat(): Devuelve una cadena representativa del show cone el formato: nombre[dia/mes/año] --> nota.
 
 Tipos auxiliares
 Tipo AgeRestriction, enumerado. Puede tomar los valores ALL,SIETE,TRECE,DIECISEIS,DIECIOCHO.
