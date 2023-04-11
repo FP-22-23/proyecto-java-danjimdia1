@@ -43,7 +43,6 @@ public class TestTvShows {
 		idiomas.add("Frances");
 		System.out.println(shows1.showsInLanguages(idiomas));
 		
-		System.out.println("\n\n\n\n\n");
 		for (Map.Entry<AgeRestriction, List<TvShowImpl>> entry : shows1.listShowsByAgeRestriction().entrySet()) {
 			System.out.println(entry);
 		}
