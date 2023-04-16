@@ -1,12 +1,17 @@
 package fp.TvShow;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
+
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import fp.common.AgeRestriction;
 
@@ -17,29 +22,48 @@ public class TvShows {
 	////////////////////////
 	
 	public TvShows() {
-		setShows(new ArrayList<TvShowImpl>());
+		shows = new ArrayList<TvShowImpl>();
 	}
 	
-	public TvShows(Collection<TvShowImpl> shows) {
-		this.setShows(new ArrayList<>(shows));	
+	public TvShows(List<TvShowImpl> shows) {
+		this.shows = new ArrayList<>(shows);	
 	}
-
+	
+	public TvShows(Stream<TvShowImpl> shows) {
+		this.shows= shows.collect(Collectors.toList());
+	}
 	////////////////////////
 	
 	public List<TvShowImpl> getShows() {
 		return shows;
 	}
 
-	public void setShows(Collection<TvShowImpl> shows) {
+	public void setShows(List<TvShowImpl> shows) {
 		this.shows = new ArrayList<>(shows);
 	}
 
 	////////////////////////
 	
+	
+	public int hashCode() {
+		return Objects.hash(shows);
+	}
+
+	public boolean equals(Object o) {
+		boolean r = false;
+		if (o instanceof TvShows) {
+			TvShows t = (TvShows) o;
+			r = this.shows.equals(t.shows);
+		}
+		return r;
+	}
+	
+	////////////////////////
+	
 	public Integer numShows() {
 		return shows.size();
 	}
-	
+
 	public void addShow(TvShowImpl show) {
 		shows.add(show);
 	}
@@ -52,21 +76,21 @@ public class TvShows {
 		shows.remove(show);
 	}
 	
-	////////////////////////
-
 	public Boolean containsShow(TvShowImpl show) {
-		Boolean res = false;
-		for(TvShowImpl s : shows) {
-			if(s.equals(show)) {
-				res = true;
-				break;
-				}
-		}
-		return res;
+		return shows.contains(show);
 	}
 	
-	public Boolean containsShow2(TvShowImpl show) {
-		return shows.contains(show);
+	////////////////////////
+	
+	public Boolean existShowReleasedBetween(LocalDate f1, LocalDate f2) {
+		Boolean res = false;
+		for(TvShowImpl s:shows) {
+			if(s.getReleaseDate().isAfter(f1) && s.getReleaseDate().isBefore(f2)) {
+				res = true;
+				break;
+			}
+		}
+		return res;
 	}
 	
 	public Double totalRating() {
@@ -130,6 +154,21 @@ public class TvShows {
 		return res;
 	}
 
+	public Map<Integer,Integer> numWorldPremiereShowsPorAño(){
+		Map<Integer,Integer> res = new HashMap<>();
+		for(TvShowImpl s:shows) {
+			Integer key = s.getReleaseDate().getYear();
+			if(s.getWorldPremiere()) {
+				if(res.containsKey(key)) {
+					res.put(key, res.get(key) + 1);
+				}else {
+					res.put(key, 1);
+				}
+			}
+		}
+		return res;
+	}
+	
 	//////////////////////
 	
 	public String toString() {
