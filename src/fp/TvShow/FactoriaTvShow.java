@@ -17,17 +17,18 @@ import fp.utils.Checkers;
 
 public class FactoriaTvShow {
 	
-	public static TvShows leerTvShows(String rutaFichero) {
+	public static TvShows leerTvShows(String rutaFichero,String nombreFichero) {
 		 TvShows res = null;
 		 Charset charset = Charset.forName("ISO-8859-1"); 
-		    try (BufferedReader reader = Files.newBufferedReader(Paths.get(rutaFichero), charset)) {
+		 String path = rutaFichero + nombreFichero;
+		    try (BufferedReader reader = Files.newBufferedReader(Paths.get(path), charset)) {
 		        Stream<TvShowImpl> st = reader
 		            .lines()
 		            .skip(1)
 		            .map(FactoriaTvShow::parseaTvShow);
 		        res = new TvShows(st);
 		    } catch(IOException e) {
-		        System.out.println("No se ha encontrado el fichero " + rutaFichero);
+		        System.out.println("No se ha encontrado el fichero " + path);
 		    }
 		    return res;
 	}

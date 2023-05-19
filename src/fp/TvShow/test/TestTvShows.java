@@ -71,23 +71,20 @@ public class TestTvShows {
 		System.out.println("\n");
 		System.out.println("\n--------------- PRUEBAS CON EL DATASET ------------------- \n");
 		
-		String rutaFichero = "data/Prime TV Shows Data set.csv"; 
-		TvShows showsDataSet = FactoriaTvShow.leerTvShows(rutaFichero);
+		String rutaFichero = "data/"; 
+		TvShows showsDataSet = FactoriaTvShow.leerTvShows(rutaFichero, "Prime TV Shows Data set.csv");
 		System.out.println("Primero la lectura del csv y despues los test con map sobre esta");
 		
 		System.out.println("\nLECTURA:\n");	
+		System.out.println("Se han leido " + showsDataSet.getShows().stream().count() + " entradas del dataset.");
+				
+		System.out.println("\nMuestra los shows por restricción de edad:");
 		for(Map.Entry<AgeRestriction, List<TvShowImpl>> entry:showsDataSet.listShowsByAgeRestriction().entrySet()) {
 			System.out.println(entry);
 		}
 		
-		System.out.println("Muestra los shows por restricción de edad\n");
+		System.out.println("\nNúmero de estrenos mundiales por año:");
 		for (Map.Entry<Integer, Integer> entry : showsDataSet.numWorldPremiereShowsPorAño().entrySet()) {
-			System.out.println(entry);
-		}
-		System.out.println("\n");
-		
-		System.out.println("Muestra el número de estrenos mundiales por año\n");
-		for (Map.Entry<AgeRestriction, List<TvShowImpl>> entry : showsDataSet.listShowsByAgeRestriction().entrySet()) {
 			System.out.println(entry);
 		}
 		

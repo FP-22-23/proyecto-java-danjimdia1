@@ -1,15 +1,18 @@
 package fp.TvShow;
 
-import java.time.LocalDate;
+import java.time.LocalDate; 
 import java.util.ArrayList;
 
 import java.util.Collection;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
+import java.util.SortedMap;
+import java.util.TreeMap;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -56,6 +59,10 @@ public class TvShows {
 			r = this.shows.equals(t.shows);
 		}
 		return r;
+	}
+	
+	public String toString() {
+		return "TvShows [shows=" + shows + "]";
 	}
 	
 	////////////////////////
@@ -117,11 +124,11 @@ public class TvShows {
 		return this.genreSet().size();
 	}
 	
-	public TvShows showsInLanguages(Collection<String> languages){
-		TvShows res = new TvShows();
+	public List<String> showsInLanguages(Collection<String> languages){
+		List<String> res = new ArrayList<>();
 		for(TvShowImpl s: shows) {
 			if(languages.contains(s.getLanguage())) {
-				res.addShow(s);
+				res.add(s.getName());
 			}
 		}
 		return res;	
@@ -169,15 +176,109 @@ public class TvShows {
 		return res;
 	}
 	
-	//////////////////////
+	/////////// BLOQUE 3 (Streams) ///////////
+
+	public Boolean existShowInLanguage(String languaje) {
+		return shows.stream()
+				.anyMatch(s -> s.getLanguage().equals(languaje));
+	}
 	
-	public String toString() {
-		return "TvShows [shows=" + shows + "]";
+	public Boolean existShowReleasedBetween2(LocalDate f1, LocalDate f2) {
+		return shows.stream()
+				.anyMatch(s -> s.getReleaseDate().isAfter(f1) && s.getReleaseDate().isBefore(f2));
 	}
 	
 	
+	public Double totalRating2() {
+		return shows.stream()
+				.mapToDouble(TvShowImpl::getImdbRating)
+				.sum();
+	}
+	
+	public Double ratingMean2() {
+		return shows.stream()
+				.collect(Collectors.averagingDouble(TvShowImpl::getImdbRating));
+	}
+	
+	public Integer countGenres2() {
+		return shows.stream()
+			.flatMap(s -> s.getGenres().stream())
+			.distinct()
+			.collect(Collectors.collectingAndThen(Collectors.counting(), Long::intValue));	
+	}
+	
+	public List<String> showsInLanguages2(Collection<String> languages) {
+		return shows.stream()
+				.filter(s -> languages.contains(s.getLanguage()))
+				.map(s -> s.getName())
+				.toList();
+	}
+	
+	public TvShowImpl MaxWorldPremiereScoreShow() {
+		return shows.stream()
+				.filter(s -> s.getWorldPremiere())
+				.max(Comparator.comparing(TvShowImpl::getImdbRating))
+				.get();
+	}
+	
+	public TvShowImpl MinWorldPremiereScoreShow() {
+		return shows.stream()
+				.filter(s -> s.getWorldPremiere())
+				.min(Comparator.comparing(TvShowImpl::getImdbRating))
+				.get();
+	}
+	
+	public List<String> TopNWorldPremieresByRating(Integer n){
+		return shows.stream()
+				.filter(s -> s.getWorldPremiere())
+				.sorted(Comparator.comparing(TvShowImpl::getImdbRating).reversed())
+				.limit(n)
+				.map(s -> s.getName())
+				.toList();
+	}
+	
+	public Map<AgeRestriction, List<TvShowImpl>> listShowsByAgeRestriction2(){
+		return shows.stream()
+				.collect(Collectors.groupingBy(TvShowImpl::getAgeRestriction));
+	}		
+	
+	public Map<Integer,Integer> numWorldPremiereShowsPorAño2(){
+		return shows.stream()
+				.filter(s -> s.getWorldPremiere())
+				.collect(Collectors.groupingBy(s -> s.getReleaseDate().getYear(),Collectors.collectingAndThen(Collectors.counting(), Long::intValue)));
+	}
 	
 	
+	public Map<AgeRestriction, String> mostRecentShowByAgeRestriction(){
+		return shows.stream()
+				.collect(Collectors.groupingBy(TvShowImpl::getAgeRestriction,
+						Collectors.collectingAndThen(Collectors.maxBy(Comparator.comparing(TvShowImpl::getReleaseDate).thenComparing(Comparator.naturalOrder())),
+								s -> s.map(TvShowImpl::getName).get())));
+	}
+	
+	
+	public SortedMap<Integer, List<TvShowImpl>> TopNScoredShowsbyYear(Integer n){
+		return shows.stream()
+				.collect(Collectors.groupingBy(TvShowImpl::getReleaseYear, TreeMap::new, Collectors.collectingAndThen(Collectors.toList(), l -> calculaTop(l,n))));
+	}
+	
+	private static List<TvShowImpl> calculaTop(List<TvShowImpl> l, Integer n) {
+		return l.stream()
+				.sorted(Comparator.comparing(TvShowImpl::getImdbRating).reversed())
+				.limit(n)
+				.toList();
+	}
+
+	public Integer AnyoMasRatingMedio() {
+		Map<Integer,Double> aux = shows.stream()
+				.collect(Collectors.groupingBy(TvShowImpl::getReleaseYear,
+						Collectors.averagingDouble(TvShowImpl::getImdbRating)));
+		return aux.entrySet().stream()
+				.max(Comparator.comparing(Map.Entry::getValue))
+				.map(e -> e.getKey())
+				.get();
+	}
+		
 	
 	
 }

@@ -148,6 +148,10 @@ public class TvShowImpl implements TvShow, Comparable<TvShowImpl>{
 		return releaseDate;
 	}
 	
+	public Integer getReleaseYear() {
+		return this.releaseDate.getYear();
+	}
+	
 	
 	//CRITERIO DE ORDEN NATURAL
 	
