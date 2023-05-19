@@ -1,0 +1,394 @@
+id;Name of the show;Release Date;No of seasons available;Language;Genre;IMDb rating;Age of viewers;World Premiere
+1;Pataal Lok;04/10/2022;1;Hindi;Drama;7.5;18+;false
+2;Upload;2/28/2017;1;English;Sci-fi comedy;8.1;16+;false
+3;The Marvelous Mrs. Maisel;10/20/2016;3;English;Drama, Comedy;8.7;16+;false
+4;Four More Shots Please;05/03/2016;2;Hindi;Drama, Comedy;5.3;18+;true
+5;Fleabag;11/23/2017;2;English;Comedy;8.7;18+;true
+6;Made in Heaven;10/08/2016;1;Hindi;Drama;8.3;18+;false
+7;Homecoming;07/05/2019;2;English;Drama;7.5;16+;true
+8;Mirzapur;6/18/2022;1;Hindi;Drama;8.5;18+;false
+9;The Family Man;08/11/2016;1;Hindi;Drama, Action;8.6;18+;false
+10;Modern Love;11/07/2018;1;English;Drama, Romance, Comedy;8;16+;true
+11;Comicstaan;8/14/2017;2;Hindi;Arts, Entertainment, Culture;;18+;true
+12;Inside Edge;1/16/2020;2;Hindi;Sports, Drama;8;18+;true
+13;The Boys;7/13/2018;2;English;Action, Comedy;8.7;18+;false
+14;Hanna;8/14/2022;2;English;Drama, Action;7.5;16+;false
+15;Hunters;01/02/2022;1;English;Drama, Action, Suspense;7.2;18+;false
+16;Good Omens;02/06/2016;1;English;Fantasy, Comedy;;16+;false
+17;Breathe;12/31/2021;1;Hindi;Drama, Suspense;8.4;16+;false
+18;The Forgotten Army- Azaadi ke Liye;4/25/2019;1;Hindi;Drama, Action;8;18+;true
+19;Tom Clancy's Jack Ryan;09/07/2018;2;English;Drama, Action, Suspense;8.1;16+;false
+20;Tales from the Loop;07/02/2016;1;English;Sci-fi ;7.5;18+;true
+21;The Test: A New Era for Australia's Team;05/08/2016;1;English;Documentary;9;16+;true
+22;The Man in the High Castle;11/20/2022;4;English;Drama, Suspense;8;18+;true
+23;One Mic Stand;11/02/2017;1;Hindi;Comedy;6.5;16+;true
+24;Undone;7/13/2016;1;English;Animation, Drama;8.2;16+;true
+25;American Gods;05/04/2019;2;English;Sci-fi, Drama, Suspense;7.8;18+;false
+26;The Tick;1/30/2016;2;English;Comedy, Action;7.4;16+;false
+27;Jestination Unknown;1/31/2020;1;Hindi;Comedy, Arts, Entertainment, Culture;6.2;16+;false
+28;Man with a Plan;03/07/2019;4;English;Drama;;All;true
+29;Suits;10/31/2017;8;English;Drama;8.5;16+;false
+30;Doctor Who;12/13/2016;13;English;Sci-fi;;All;true
+31;Grey's Anatomy;12/15/2018;15;English;Drama;7.6;16+;true
+32;The Mentalist;12/06/2022;7;English;Drama;8.1;16+;false
+33;Afsos;01/12/2020;1;Hindi;Drama, Comedy;;16+;false
+34;Laakhon Mein Ek;3/26/2017;2;Hindi;Drama;;16+;true
+35;House;4/17/2022;8;English;Drama;;16+;false
+36;The Good Doctor;3/15/2022;3;English;Drama;;16+;true
+37;The Vampire Diaries;1/19/2016;8;English;Drama, Horror, Romance, Suspense;7.7;16+;false
+38;Hostel Daze;1/26/2020;1;Hindi;Drama, Comedy;8.7;16+;true
+39;Mr. Robot;9/30/2022;3;English;Drama, Suspense;8.5;18+;true
+40;Supernatural;10/13/2017;15;English;Drama, Suspense, Horror;8.4;16+;false
+41;Dexter;08/02/2017;8;English;Drama;8.6;18+;false
+42;The Magicians;08/02/2017;2;English;Drama, Suspense, Fantasy;;16+;true
+43;Blindspot;07/11/2016;5;English;Drama;7.4;16+;false
+44;The Good Wife;8/22/2016;7;English;Drama;8.3;16+;false
+45;The Girlfriend Experience;09/02/2022;3;English;Drama;7.1;18+;false
+46;Chacha Vidhayak Hain Humare;02/10/2017;1;Hindi;Drama, Comedy;;16+;true
+47;Scorpion;1/22/2016;4;English;Drama;;13+;false
+48;Shameless;12/17/2018;10;English;Comedy, Drama;8.6;18+;true
+49;Reign;4/26/2022;4;English;Drama;;16+;false
+50;Downtown Abbey;11/23/2021;6;English;Drama;8.7;7+;false
+51;McMafia;3/24/2019;1;English;Drama;;13+;true
+52;This is Us;4/13/2022;3;English;Drama;8.7;16+;false
+53;Malgudi Days Swami & Friends 1;2/24/2020;4;Hindi;Drama;;7+;true
+54;Nikita;2/27/2021;4;English;Drama, Action;;18+;true
+55;Carnival Row;08/01/2022;1;English;Drama, Fantasy;7.9;16+;true
+56;Legacies;05/07/2020;2;English;Drama;;16+;true
+57;Bates Motel;05/12/2019;5;English;Drama, Horror, Suspense;;16+;true
+58;The Exorcist;12/15/2022;2;English;Drama;8.1;16+;true
+59;The Night Manager;06/01/2018;1;English;Drama, Suspense;8.1;18+;true
+60;The Originals;8/24/2022;5;English;Drama, Horror, Fantasy;8.2;16+;false
+61;The Purge;06/07/2021;2;English;Drama, Horror, Suspense;;18+;false
+62;Deception;5/21/2019;1;English;Drama;;13+;false
+63;The Last Ship;12/08/2016;5;English;Drama, Suspense, Action;7.5;16+;true
+64;Treadstone;06/05/2018;1;English;Drama;7;16+;true
+65;The Terror;11/04/2017;2;English;Drama, Suspense, Adventure;;16+;true
+66;Manifest;05/03/2017;2;English;Drama;;16+;false
+67;Pushpavalli;12/27/2019;2;Hindi;Drama, Comedy;;16+;true
+68;Fringe;6/24/2017;5;English;Sci-fi;8.4;16+;true
+69;Person of Interest;06/10/2020;5;English;Drama, Action, Suspense;8.4;16+;true
+70;The Affair;12/07/2019;5;English;Drama;;18+;false
+71;The American Playboy: The Hugh Hefner Story;01/04/2017;1;English;Drama, Documentary;;18+;true
+72;The Widow;7/30/2016;1;English;Drama, Suspense;6.9;16+;true
+73;God Friended Me;02/01/2021;2;English;Drama, Comedy;;All;false
+74;Star Trek: Picard;8/29/2016;1;English;Sci-fi;7.6;18+;false
+75;Fear the Walking Dead;7/13/2019;5;English;Drama, Horror;6.9;16+;false
+76;Taken;01/11/2018;2;English;Drama, Action;;16+;false
+77;Bosch;1/16/2017;6;English;Drama;8.4;18+;true
+78;Elementary;12/19/2017;7;English;Drama, Suspense;7.9;16+;true
+79;Beauty and the Beast;7/24/2016;4;English;Drama, Sci-fi;7.1;16+;true
+80;NCIS;7/19/2016;17;English;Drama, Action;7.8;16+;false
+81;Masters of Sex;10/25/2020;4;English;Fantasy;;16+;false
+82;Into the Badlands;04/02/2018;3;English;Drama, Action, Sci-fi;8;16+;true
+83;Vella Raja;08/07/2016;1;Hindi;Action;;16+;false
+84;Bang Baaja Baaraat;8/19/2016;1;Hindi;Drama;8;18+;false
+85;Covert Affairs;04/09/2018;5;English;Drama, Action;;13+;false
+86;The Handmaid's Tale;04/05/2020;3;English;Drama;8.5;18+;false
+87;Gangstars;8/23/2016;1;Telugu;Drama, Suspense;;13+;false
+88;Madam Secretary;9/29/2022;5;English;Drama;;13+;false
+89;Marvel's Runaways;05/07/2016;3;English;Drama, Sci-fi;;16+;false
+90;One Tree Hill;10/28/2021;9;English;Drama;;13+;true
+91;Absentia;07/02/2016;2;English;Drama, Suspense;7.3;16+;true
+92;Grimm;3/27/2022;6;English;Drama, Action, Adventure;;16+;false
+93;Heroes;1/25/2018;4;English;Drama, Sci-fi;;16+;false
+94;Startup;1/21/2021;3;English;Drama;8;18+;false
+95;Extant;11/04/2019;2;English;Drama;6.6;16+;false
+96;Goliath;10/01/2021;3;English;Drama;8.2;18+;false
+97;Station 19;5/20/2017;3;English;Drama;;16+;true
+98;Diablo Guardian;11/11/2021;2;English;Drama;6;18+;false
+99;Lethal Weapon;6/16/2021;3;English;Drama, Action;7.9;16+;false
+100;Chernobyl: Aftermath;08/10/2017;1;English;Drama;;13+;false
+101;Blue Bloods;10/17/2021;10;English;Drama;7.6;16+;true
+102;Patriot;11/30/2018;2;English;Drama, Suspense;8.3;18+;false
+103;Rizzoli and Isles;03/03/2021;7;English;Drama, Action;7.6;16+;true
+104;Luther;08/10/2018;5;English;Drama;;18+;true
+105;Dispatches from Elsewhere;1/19/2022;1;English;Drama, Suspense;;16+;false
+106;Mad Men;10/04/2022;7;English;Drama;8.6;16+;false
+107;The Looming Tower;4/24/2016;1;English;Drama, Suspense;;18+;false
+108;Siyaasat;12/29/2021;1;Hindi;Drama;;13+;false
+109;Mafia Undercover;11/15/2022;2;Italiano;Drama;;16+;false
+110;The Baker and The Beauty;10/13/2019;2;Hebrew;Drama, Romance;;13+;true
+111;Roswell, New Mexico;4/30/2022;2;English;Drama;;All;false
+112;Pretty Little Liars: The Perfectionists;08/05/2022;1;English;Drama;;13+;false
+113;Major Crimes;09/02/2022;6;English;Drama;7.7;16+;false
+114;Happy Marriage!?;1/29/2019;1;Japanese;Drama, Romance;;13+;false
+115;The Crossing;4/30/2016;1;English;Drama, Sci-fi;;All;true
+116;Famous in Love;11/24/2017;2;English;Drama, Romance;6.9;All;true
+117;Rush;06/11/2020;4;English;Drama;;18+;true
+118;Whiskey Cavalier;9/16/2020;1;English;Drama, Comedy, Action;;13+;false
+119;Hawaii Five-O;03/09/2020;10;English;Drama, Action;7.3;16+;true
+120;Penny Dreadful;3/22/2017;3;English;Drama, Horror;8.2;All;false
+121;You are Wanted;06/01/2021;3;English;Drama;;13+;true
+122;H.G. Wells: The Invisible Man;8/16/2021;2;English;Drama, Sci-fi, Suspense, Action;;7+;true
+123;Parenthood;06/11/2019;6;English;Drama, Comedy;;16+;true
+124;Marvel's Cloak & Dagger;2/19/2022;2;English;Drama, Fantasy;;16+;true
+125;Preacher;7/25/2019;4;English;Drama;8;18+;false
+126;The Trial: A Murder in the Family;4/16/2018;1;English;Drama;;16+;false
+127;Claws;2/17/2019;3;English;Drama;7.3;All;false
+128;The Good Fight;04/11/2022;3;English;Drama;;18+;true
+129;Sneaky Pete;6/28/2017;3;English;Drama;8.2;18+;false
+130;Shaktimaan;1/31/2016;5;Hindi;Drama;;16+;true
+131;American Woman;05/06/2022;1;English;Drama, Comedy;;All;false
+132;Hap and Leonard;03/11/2019;3;English;Drama, Suspense;7.6;16+;false
+133;Chicago Med;06/03/2020;4;English;Drama;;All;false
+134;Murder in the First;1/20/2021;3;English;Drama;7.2;18+;true
+135;House of Lies;2/22/2017;5;English;Drama, Comedy;7.4;18+;true
+136;The Missing;4/27/2018;2;English;Drama;;16+;true
+137;Dance Academy;5/15/2022;3;English;Drama;8.1;7+;true
+138;A very English Scandal;2/22/2017;1;English;Drama;;16+;true
+139;Mozart in the Jungle;01/04/2016;4;English;Drama, Comedy;8.2;18+;false
+140;21 Jump Street;3/20/2017;5;English;Drama;;16+;true
+141;The Romanoffs;4/16/2019;1;English;Drama;7;16+;true
+142;El Presidente;4/24/2017;1;Spanish;Drama;;All;true
+143;Ray Donovan;09/02/2017;6;English;Drama;8.3;All;false
+144;The Neighbors;7/21/2017;2;Nederlands;Drama;;16+;true
+145;Training Day;07/02/2016;1;English;Drama, Action;6;16+;false
+146;Flesh and Bone;04/01/2018;1;English;Drama, LGBTQ, Arts, Entertainment, Culture;8;18+;false
+147;Injustice;8/22/2018;1;English;Drama;;13+;false
+148;Tokyo Girl;03/11/2017;1;Japanese;Drama, Comedy;8.1;13+;true
+149;Z: The Beginning of Everything;02/03/2020;1;English;Drama;7.2;18+;false
+150;Guilt;04/03/2020;1;English;Drama;6;All;false
+151;Good Girls Revolt;1/19/2021;1;English;Drama;8.2;18+;false
+152;Hand of God;10/03/2016;2;English;Drama;7.5;18+;true
+153;The Rook;11/04/2017;1;English;Drama;;18+;false
+154;Time After Time;8/22/2020;1;English;Drama, Sci-fi;6.7;16+;true
+155;Life;02/10/2020;2;English;Drama;8.3;All;true
+156;Hunter;01/10/2023;7;English;Drama;;16+;false
+157;The Missing;10/19/2022;2;English;Drama;;16+;false
+158;Fukuyadou Honpo-Kyoto Love Story;7/23/2016;1;Japanese;Drama, Romance;7.7;13+;true
+159;Collision;2/14/2021;1;English;Drama;;13+;true
+160;Presumed Guilty;05/05/2016;1;Italiano;Drama;;18+;false
+161;Deutschland;07/06/2019;1;Deutsch;Drama;8.1;18+;true
+162;Lore;11/09/2017;2;English;Horror;6.7;16+;true
+163;Tokyo Alice;1/21/2017;1;Japanese;Drama;4;13+;false
+164;Warrior's Way;6/24/2018;1;English;Drama;;13+;true
+165;Silk Stalkings;02/09/2020;4;English;Drama;;16+;true
+166;Transparent;7/26/2017;5;English;Drama, Comedy, LGBTQ;7.8;18+;false
+167;The Last Tycoon;12/20/2021;1;English;Drama;7.7;18+;false
+168;Too Old to Die Young;06/06/2022;1;English;Drama;;18+;true
+169;4 Blocks;09/04/2017;2;English;Drama;;16+;false
+170;Haunted;8/13/2021;1;French;Drama;;13+;false
+171;Lodge 49;6/25/2022;1;English;Drama, Comeddy;;18+;true
+172;The First;11/13/2016;1;English;Drama, Sci-fi;;18+;true
+173;Black sun;3/14/2022;1;Serbian;Drama;;18+;false
+174;Life Sentence;01/05/2018;1;English;Drama;;16+;false
+175;Shackleton: Trapped in the South Pole;7/29/2017;1;English;Drama;;16+;false
+176;Final Life;6/28/2022;1;Japanese;Drama;5.2;16+;false
+177;Falling Water;01/02/2020;2;English;Drama, Sci-fi;6.5;16+;false
+178;Midnight, Texas;02/05/2018;2;English;Drama;;All;false
+179;The Idolm@aster.kr;06/03/2016;1;Japanese;Drama;;13+;true
+180;Inside Borussia Dortmund;6/23/2017;1;English;Drama, Documentary;;All;true
+181;All American;1/13/2019;2;English;Drama, Sports;;All;true
+182;Almirante Hotel;04/10/2022;1;Spanish;Drama;;13+;false
+183;The Collection;9/15/2022;1;English;Drama;7.1;16+;false
+184;Beat;1/22/2022;1;English;Drama;7.4;16+;true
+185;Coloner March of Scotland Yard;8/20/2019;1;English;Drama;;7+;false
+186;New Worlds;2/21/2018;1;English;Drama;;16+;false
+187;Missing Evidence;5/29/2022;1;English;Drama;;All;true
+188;Deadly Game;8/20/2022;1;Italiano;Drama;;16+;true
+189;Feed the Beast;10/16/2017;1;English;Drama;6.7;16+;false
+190;The Commish;5/27/2022;4;English;Drama;;16+;false
+191;Water Rats;3/24/2022;7;English;Drama;;16+;false
+192;The Incredible Journey of Mary Bryant;09/03/2021;1;English;Drama;;18+;true
+193;Dietland;5/28/2018;1;English;Drama, Comedy;;16+;true
+194;One Mississippi;7/13/2022;2;English;Drama;7.3;18+;true
+195;Roadies;5/19/2016;1;English;Drama, Comedy;7.3;18+;true
+196;Lifeline;8/31/2016;1;Russian;Drama;;13+;true
+197;The Secrets of Borgo Lairci;09/05/2020;1;Italiano;Drama;;16+;true
+198;MAGI The Tensho Boys' Embassy;02/09/2022;1;Japanese;Drama;;16+;true
+199;Stingray;6/21/2016;2;English;Drama;;16+;true
+200;Tucker's Witch;09/11/2020;1;English;Drama;;16+;true
+201;Extrano Enemigo;4/14/2016;1;Spanish;Drama;;16+;true
+202;The Cecil B. DeMille Classics Collection;9/20/2019;1;English;Drama;;13+;true
+203;The Path;6/14/2019;3;English;Drama;7.3;18+;true
+204;Girlfriends Guide to Divorce;11/10/2018;5;English;Comedy;6.9;All;true
+205;Lorena;8/19/2016;1;English;Documentary;7.2;16+;true
+206;When We Go to War;9/28/2017;1;English;Drama;;18+;true
+207;Peter Gunn;12/17/2020;3;English;Drama;;13+;true
+208;Queen Sugar;5/22/2019;4;English;Drama;7.7;All;true
+209;Alone Together;7/16/2017;2;English;Comedy;;16+;true
+210;Booker;10/23/2020;1;English;Drama;;16+;true
+211;Casanova: PBS Masterpiece Theatre- The Complete Series;7/23/2019;1;English;Drama;;18+;true
+212;Mr. Lucky;05/07/2021;1;English;Drama;;13+;false
+213;The Lives of the Saints;03/07/2020;1;English;Drama;;13+;true
+214;Neon Rider;8/21/2019;5;English;Drama;;16+;false
+215;The Ray Bradbury Theatre;10/13/2017;6;English;Drama;;13+;false
+216;Silver and Gold;9/25/2020;1;Japanese;Drama;;18+;true
+217;An Unknown Enemy;03/07/2019;1;Spanish;Drama;8.1;18+;true
+218;Black Harbour;12/11/2016;2;English;Drama;;13+;false
+219;Family Pictures;11/10/2018;1;English;Drama;;13+;false
+220;To the Ends of the Earth (BBC Series);12/21/2018;1;English;Drama;;13+;false
+221;The Red Line;10/05/2016;1;English;Drama;;All;true
+222;Your brush with Nature;05/11/2019;1;English;Drama;;All;true
+223;The Last Ship;09/05/2021;5;English;Drama, Suspense, Action;7.5;16+;true
+224;Constantine;11/09/2019;1;English;Sci-fi, Action, Suspense ;7.5;16+;true
+225;Super Wings;3/14/2017;3;English;Kids;;All;true
+226;Lockout;7/14/2021;1;Italiano;Action;;16+;true
+227;Lost in Oz;8/17/2020;2;English;Kids;7.7;7+;true
+228;Journey with Dylan Dreyer;6/16/2019;1;English;Action;;13+;true
+229;Vir the Robot Boy;06/04/2017;2;Hindi;Kids;;7+;true
+230;Forensic Files;04/08/2017;20;English;Documentary;;13+;true
+231;Highway on my Plate;01/07/2016;1;English;Adventure;;All;true
+232;The Lost World;6/26/2021;3;English;Action;;13+;true
+233;T-Buster;10/30/2016;1;English;Kids;;All;true
+234;Tobot;10/14/2017;4;English;Kids;;7+;true
+235;Tropical Heat;09/05/2016;3;English;Action;;16+;false
+236;Amazon Riders;6/23/2017;2;Japanese;Action;7.9;13+;false
+237;Hitler's Eastern Front;11/19/2022;1;English;Action;;13+;true
+238;Full Disclosure;10/11/2018;2;Italiano;Action;;16+;false
+239;Conviction;01/02/2020;1;French;Action;;13+;true
+240;Junior G;10/18/2018;2;Hindi;Action;;7+;false
+241;U.S Bounty Hunters;05/11/2016;2;English;Action;;16+;true
+242;Legacy;06/02/2022;1;Serbian;Action;;13+;false
+243;The Adventures of Robin Hood;7/13/2022;4;English;Adventure;;13+;false
+244;Skulls and Roses;04/04/2018;1;Hindi;Action;4.3;18+;false
+245;Caribbean Thunder;7/17/2022;1;Italiano;Action;;13+;true
+246;The New Adventures of Flash Gordon;9/30/2020;1;English;Action;;7+;true
+247;Renegade;09/08/2019;5;English;Action;;16+;true
+248;Strike Force;4/30/2019;2;Nederlands;Action;;16+;true
+249;The Harbor: Aberdeen;08/12/2018;2;English;Action;;13+;true
+250;Teen Wolf;2/23/2020;2;English;Action;;7+;false
+251;The Buccaneers;7/17/2021;1;English;Action;;13+;true
+252;Cocomong;4/25/2022;2;English;Kids;;All;false
+253;Vancy Derringer;8/28/2020;1;English;Action;;13+;false
+254;Shark Man;04/08/2022;1;English;Action;;13+;false
+255;Bhoot and Friends;4/20/2021;1;Hindi;Kids;;7+;true
+256;The Greatest American Hero;06/02/2016;3;English;Action;;16+;true
+257;Space Precinct: Complete Series;11/15/2021;1;English;Action;;13+;false
+258;Which Way To ;08/07/2017;2;English;Action;;All;true
+259;Young Sheldon;6/16/2021;3;English;Comedy;;13+;true
+260;The Big Bang Theory;03/04/2017;12;English;Comedy;;13+;false
+261;The Office;4/15/2019;9;English;Comedy;;13+;false
+262;Mr. Bean;7/16/2021;1;English;Comedy;8.5;16+;false
+263;Mind the Malhotras;11/05/2022;1;Hindi;Comedy;;16+;true
+264;Mr. Bean: The Animated Series;07/07/2019;3;English;Comedy;6.8;13+;false
+265;2 Broke Girls;05/01/2016;6;English;Comedy;6.7;16+;false
+266;The Stinky & Dirty Show;6/28/2020;2;English;Kids, Animation;7.1;All;true
+267;Joey;1/27/2019;1;English;Comedy;;7+;true
+268;Two and a Half Men;6/20/2022;12;English;Comedy;7;16+;false
+269;Selfie with Bajrangi;11/18/2017;2;English;Kids;;All;true
+270;Russell Peters: Deported;1/14/2016;1;English;Comedy;6.1;16+;true
+271;Classic Popeye;9/13/2018;2;English;Animation;;All;false
+272;Inspector Chingum;6/24/2018;2;Hindi;Kids;;7+;false
+273;Eeena Meena Deeka;9/15/2021;1;English;Kids;;7+;false
+274;Psych;10/05/2018;8;English;Comedy;;13+;true
+275;Mom;4/19/2018;7;English;Comedy;7.2;16+;true
+276;Yeh Jo hain Zindagi;12/05/2021;1;Hindi;Comedy;;13+;true
+277;Oggy and the Cockroaches;06/02/2019;7;Hindi;Kids;7.3;7+;false
+278;The Kicks;3/29/2016;1;English;Sports, Drama;6.9;All;true
+279;The PowerPuff Girls;02/01/2018;5;English;Kids, Animation;7.2;All;false
+280;The Middle;10/10/2022;9;English;Comedy;7.5;7+;false
+281;Zabaan Sambhalke;1/30/2019;1;Hindi;Comedy;;13+;false
+282;Seinfeld;01/08/2021;9;English;Comedy;8.8;13+;false
+283;Parks and Recreation;05/12/2019;7;English;Comedy;;13+;false
+284;Chaplin & Co;5/24/2018;1;English;Comedy;5.8;7+;true
+285;Shaitaan Haveli;5/17/2018;1;Hindi;Comedy;;16+;true
+286;The Fresh Prince of Bel-Air;2/24/2019;6;English;Comedy;;7+;false
+287;Jimmy O. Yang: Good Deal;5/31/2021;1;English;Arts, Entertainment, Culture;7.1;18+;false
+288;Cat vs Keet;9/22/2019;1;English;Kids;;All;false
+289;Citizen Khan;2/16/2019;5;English;Comedy;;7+;true
+290;Chuck;09/12/2018;5;English;Comedy;;16+;false
+291;The Mindy Project;10/20/2020;6;English;Comedy;7.4;16+;false
+292;Curious George;1/28/2021;1;English;Kids;;All;false
+293;Johnny Bravo;08/10/2022;4;English;Kids;7.2;7+;true
+294;Californication;10/26/2020;7;English;Comedy;8.3;18+;false
+295;Sigmund and the Sea Monsters;11/19/2016;1;English;Kids;6.9;All;false
+296;Casual;11/15/2020;4;English;Comedy;;18+;false
+297;Munki and Trunk;7/23/2018;1;English;Kids;8.4;All;false
+298;Anger Management;10/05/2019;5;English;Comedy;6.6;13+;false
+299;Jean Claude Van Johnson;04/01/2019;1;English;Comedy;7.6;18+;false
+300;Best of AIB;4/14/2018;1;Hindi;Comedy;8.2;16+;false
+301;Forever;09/06/2019;1;English;Comedy;7.2;16+;true
+302;Dennis the Menace;05/02/2016;2;English;Kids;6.3;All;true
+303;Yes Minister: Specials;11/18/2018;4;English;Comedy;;All;true
+304;I love Dick;6/14/2022;1;English;Comedy;6.2;18+;false
+305;Raja aur Rancho;7/17/2021;1;Hindi;Comedy;;13+;false
+306;Dilruk Jayasinha: Bundle of Joy;03/08/2021;1;English;Arts, Entertainment, Culture;;16+;false
+307;Yes, Prime Minister;03/07/2017;2;English;Comedy;;All;true
+308;Going Viral Pvt. Ltd.;12/08/2021;1;Hindi;Comedy;;All;true
+309;PAC-MAN and the Ghostly Adventures;4/24/2022;2;English;Animation;;7+;false
+310;El Juego de las Llaves;4/28/2021;1;Spanish;Comedy;;18+;false
+311;Desperate Widows;07/08/2019;1;Suomi;Drama, Comedy;6.5;16+;false
+312;Coupling;01/12/2019;4;English;Comedy;;16+;false
+313;Trial and Error;10/06/2022;2;English;Comedy;8;13+;false
+314;Man's World;8/28/2019;1;Hindi;Comedy;7.3;13+;true
+315;Anne Edmonds: What's Wrong with You?;01/04/2023;1;English;Arts, Entertainment, Culture;6.4;16+;true
+316;Red Oaks;08/06/2021;3;English;Comedy;7.9;18+;false
+317;Censhorship in the Future;08/11/2017;1;English;Comedy;6.3;All;true
+318;Alice Wettlund: My Mama is a Human and So Am I;01/03/2022;1;English;Comedy;4.7;16+;false
+319;Die Trying;11/26/2021;1;English;Comedy;;16+;true
+320;That Girl;10/19/2017;5;English;Comedy;7.1;7+;false
+321;Little Big Awesome;8/24/2018;2;English;Kids;7.2;All;true
+322;Celia Pacquola: All Talk;9/14/2020;1;English;Comedy;;16+;false
+323;Tommy Little: Self-Diagnosed Genius;5/27/2020;1;English;Arts, Entertainment, Culture;6.2;16+;true
+324;Bananas in Pyjamas;12/04/2022;2;English;Kids;;All;true
+325;The New Archie's;7/14/2021;1;English;Kids;6.7;7+;true
+326;The Simple Life;12/13/2018;4;English;Comedy;;16+;false
+327;The Detour;05/08/2016;4;English;Action;7.7;18+;false
+328;Splitting Up Together;05/07/2022;2;English;Comedy;;18+;false
+329;Paul Chowdhry: Live Innit;5/22/2021;1;English;Arts, Entertainment, Culture;;18+;false
+330;Danger and Eggs;8/23/2020;1;English;Comedy;6.6;All;true
+331;EIC vs The World;9/28/2017;1;English;Comedy;8;16+;false
+332;SNG: What if;3/24/2017;1;Hindi;Comedy;6;All;false
+333;Living Biblically;3/16/2017;1;English;Comedy;;All;false
+334;Kanan Gill: How Insensitive;2/13/2022;1;English;Comedy;7;All;false
+335;Jim Gaffigan: Quality Time;03/02/2019;1;English;Comedy;7.6;13+;false
+336;Angie Tribeca;9/17/2018;4;English;Comedy;7;16+;true
+337;Inside Jokes;05/01/2020;1;English;Arts, Entertainment, Culture;7.1;16+;false
+338;Alice Fraser: Savage;08/07/2016;1;English;Comedy;;16+;false
+339;Judith Lucy: Judith Lucy vs Men;5/19/2019;1;English;Comedy;6;18+;false
+340;Zoe Coombs Marr: Bossy Bottom;3/22/2021;1;English;Comedy;;18+;false
+341;The Grand Tour;05/02/2022;4;English;Sports;8.7;16+;false
+342;The Adventures of Rocky and Bullwinkle;7/31/2022;2;English;Kids;5.4;All;true
+343;The Adventures of Paddington Bear;5/17/2016;3;English;Kids;7.1;All;true
+344;Chacha Bhatija;11/18/2022;2;Hindi;Kids;;7+;true
+345;Lexx;2/21/2019;4;English;Sci-fi;;13+;true
+346;Atchoo;7/30/2019;1;Hindi;Kids;;All;false
+347;Tom Gleeson: Joy;2/21/2020;1;English;Comedy;6.3;16+;false
+348;People of Earth;4/13/2020;2;English;Comedy;7.7;All;true
+349;Son of Abish;04/06/2021;1;English;Arts, Entertainment, Culture;7.3;13+;false
+350;Tom Walker: Very Very;10/02/2018;1;English;Comedy;;16+;true
+351;Jayde Adams: Serious Black Jumper;1/29/2020;1;English;Comedy;6.9;16+;false
+352;Crisis in Six Scenes;2/19/2021;1;English;Comedy;6.6;18+;true
+353;Alonzo Bodden: Heavy Lightweight;11/22/2017;1;English;Comedy;5.6;16+;false
+354;Chris Ramsey: Approval Needed;07/10/2018;1;English;Arts, Entertainment, Culture;7.2;16+;true
+355;LOL: Australia;2/14/2017;1;English;Comedy;;All;true
+356;#IMomSoHard Live;05/08/2018;1;English;Comedy;5.4;16+;false
+357;Caligula;02/07/2022;1;Japanese;Comedy;;13+;false
+358;Lano & Woodley: Fly;2/14/2016;1;English;Comedy;6.2;16+;true
+359;The Late Show with James Corden;10/01/2022;2;English;Comedy;6.2;All;false
+360;Spaced;8/17/2019;2;English;Comedy;;16+;true
+361;Random Gappa;7/14/2020;1;Marathi;Comedy;;All;true
+362;Rob Delaney: Jackie;10/15/2017;1;English;Comedy;6.4;18+;true
+363;Mike E. Winfield: StepMan;11/20/2022;1;English;Comedy;6.3;16+;true
+364;Ed Gamble: Blood Sugar;10/03/2020;1;English;Arts, Entertainment, Culture;;16+;false
+365;Mini Ninjas;1/17/2018;1;English;Comedy;;All;true
+366;Loudermilk;5/15/2019;2;English;Comedy;;16+;false
+367;Flo and Joan: Alive on Stage;4/25/2019;1;English;Arts, Entertainment, Culture;;16+;true
+368;Ilana Glazer: The Planet is Burning;7/29/2019;1;English;Comedy;3.7;18+;false
+369;Scream Street;08/12/2016;1;English;Kids;7.1;All;true
+370;Me, Myself and I;3/17/2016;1;English;Comedy;7.2;All;false
+371;Kung Fu Bunny;9/30/2019;1;English;Kids;;13+;true
+372;The Kacey Musgraves Christmas Show;2/26/2017;1;English;Comedy;7.2;7+;true
+373;Simon's Cat- Classic Collection;3/15/2022;1;English;Comedy;;All;true
+374;The Danny Thomas Show;10/02/2017;3;English;Comedy;7.2;All;false
+375;Hitoshi Matsumoto Presents Documental;12/31/2017;3;Japanese;Comedy;8;18+;false
+376;Businessmen VS Aliens;09/08/2020;1;Japanese;Comedy;4.5;13+;false
+377;Murphy Brown;02/11/2021;1;English;Comedy;;All;true
+378;The Best of Groucho;08/12/2019;1;English;Comedy;;7+;true
+379;WassUp With You;6/26/2017;2;Marathi;Comedy;;13+;false
+380;Scooter: Secret Agent;07/02/2018;1;English;Comedy;6.8;All;false
+381;LOL: Last one Laughing;7/19/2022;2;Spanish;Comedy;;18+;true
+382;Faireez;05/03/2020;1;English;Comedy;;All;true
+383;A New Kind Of Magic;6/13/2019;2;English;Comedy;;All;true
+384;The Real McCoys;5/30/2018;6;English;Comedy;7.5;All;true
+385;Uchimura Summers;10/20/2020;1;Japanese;Arts, Entertainment, Culture;;13+;true
+386;Paprika;08/08/2022;1;English;Kids;;All;false
+387;Gattu- The Power Champ;09/12/2022;2;Hindi;Kids;;7+;false
+388;Still Standing;1/14/2016;4;English;Comedy;;13+;true
+389;Chris Tall Presents…;5/20/2019;1;Deutsch;Comedy;;16+;true
+390;Short Poppies;4/21/2021;1;English;Comedy;;13+;true
+391;The 2018 Rose Parade Hosted by Cord & Tish;10/30/2018;1;English;Comedy;;All;false
+392;Aliens Love Underpants And…;7/18/2021;1;English;Kids;;All;true
+393;Gina Brillon: The Floor is Lava;02/05/2018;1;English;Comedy;;16+;false
